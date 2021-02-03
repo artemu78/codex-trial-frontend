@@ -4,5 +4,18 @@ export interface ICar {
   model: string;
   year: number;
 }
+export interface IMeta {
+  page: number;
+  per_page: number;
+  total_items?: number;
+}
+export interface ICarsState {
+  _metadata: IMeta;
+  items: ICar[];
+  loading: boolean;
+  error: IError;
+}
 
-export interface IMeta {}
+export interface IError {
+  message: string;
+}

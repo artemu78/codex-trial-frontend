@@ -7,7 +7,7 @@ export default function Home() {
     <div>
       <Head>
         <title>Artem Reva frontend test project. Cars.</title>
-        <link rel="icon" href="/favicon.ico" />
+        <link rel="icon" href="/favicon.png" />
       </Head>
       <CarsGrid />
     </div>
