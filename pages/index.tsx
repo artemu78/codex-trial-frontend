@@ -1,5 +1,5 @@
 import Head from "next/head";
-import CarsGrid from "./grid.tsx";
+import CarsGrid from "./grid";
 import React from "react";
 
 export default function Home() {
