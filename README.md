@@ -29,3 +29,10 @@ Your submission must contain the following artifacts besides the application cod
 
 Please fork this repository and create a pull request once your submission is ready.
 
+# Run project
+Write in console
+```
+docker run -d --name ionic -p 3000:3000 122323/ionicp:latest
+```
+
+Open browser http://127.0.0.1:3000
